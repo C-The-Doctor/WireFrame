@@ -67,7 +67,7 @@ class BackLog(View):
 
 
 
-app.add_url_rule('/Home/', view_func=BackLog.as_view('Home'))
+app.add_url_rule('/', view_func=BackLog.as_view('Home'))
 
 
 
